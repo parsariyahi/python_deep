@@ -63,3 +63,28 @@ print(r1 < r3)
 print(r1)
 
 print(repr(r1)) #The representation of that class
+
+
+class Rectangle:
+
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+
+    def get_width(self):
+        return self._width
+
+    def set_width(self, width):
+        self._width = width
+
+    def get_height(self):
+        return self._height
+
+    def set_height(self, height):
+        self._height = height
+
+    def __str__(self):
+        return f"Rectangle width={self._width}, height={self._height}"
+
+    def __repr__(self):
+        return f"Rectange({self._width}, {self._height})"

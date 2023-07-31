@@ -7,8 +7,8 @@ print(a is c)
 print(b is c)
 
 
-a = 400
-b = 400
+a = 4972808000
+b = 4972808000
 print(a is b)
 print(a == b)
 
@@ -18,8 +18,8 @@ b = "hello"
 print(a is b)
 print(a == b)
 
-a = "some longer string to check"
-b = "some longer string to check"
+a = "some longer string to check some longer string to check some longer string to check "
+b = "some longer string to check some longer string to check some longer string to check "
 print(a is b)
 print(a == b)
 
